@@ -2,9 +2,8 @@
 
 public class Catalog
 {
-    public string GetProducts(string? userAgent)
+    public string GetProducts(string? userAgent, double? multiplier)
     {
-        double multiplier = 1;
         DateTime date = DateTime.Now;
         string curDate = date.ToShortDateString();
         
